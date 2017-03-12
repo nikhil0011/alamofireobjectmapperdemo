@@ -44,7 +44,7 @@ class ViewController: UIViewController {
         let loginAPIManager = LoginAPIManager()
         //calling method in LoginAPIManager class
         //with static parameters
-        loginAPIManager.generateOTPService(name: "Nikhil",epAppRegID: EPAppRegID, mobile: "9999999999", success: { (data) -> Void in
+        loginAPIManager.generateOTPService(name: "Nikhil",epAppRegID: AppRegID, mobile: "9999999999", success: { (data) -> Void in
             SVProgressHUD.dismiss()
             self.loginResponse = data!
             print("otp",self.loginResponse.OTP)
