@@ -13,9 +13,9 @@ Network request format would be :
  }
  
  Response we would be consuming is :
- /n
+
  {
-  "ErrorCode": 200,/n
+  "ErrorCode": 200,
   "loginResponse": {
     "OTP": "020520",
     "PreExisting": true,
