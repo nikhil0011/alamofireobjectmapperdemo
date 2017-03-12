@@ -13,15 +13,17 @@ Network request format would be :
  }
  
  Response we would be consuming is :
- 
+ /n
  {
-  "ErrorCode": 200,
+  "ErrorCode": 200,/n
   "loginResponse": {
     "OTP": "020520",
     "PreExisting": true,
     "CustomerId": 000000
   }
 }
+
+
 Project is tetsted with valid url and over all devices.
 
 Note: Please change base url and endpoint according to your own use similarly you may update request or response model as per needed. 
