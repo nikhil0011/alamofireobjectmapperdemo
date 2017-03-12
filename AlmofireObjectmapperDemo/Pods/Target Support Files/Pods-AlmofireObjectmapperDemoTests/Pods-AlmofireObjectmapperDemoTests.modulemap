@@ -1,0 +1,6 @@
+framework module Pods_AlmofireObjectmapperDemoTests {
+  umbrella header "Pods-AlmofireObjectmapperDemoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
