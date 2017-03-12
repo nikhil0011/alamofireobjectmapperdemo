@@ -22,4 +22,6 @@ Network request format would be :
     "CustomerId": 000000
   }
 }
- 
+Project is tetsted with valid url and over all devices.
+
+Note: Please change base url and endpoint according to your own use similarly you may update request or response model as per needed. 
